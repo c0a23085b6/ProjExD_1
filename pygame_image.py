@@ -43,12 +43,14 @@ def main():
 
         kk_rct.move_ip(move_x, move_y)
 
-        screen.blit(bg_img, [bg_x - bg_width, 0])  
+        screen.blit(bg_img, [bg_x - bg_width, 0]) 
+        
         screen.blit(bg_img, [bg_x, 0])  
 
         screen.blit(kk_img, kk_rct)
 
         pg.display.update()
+
         clock.tick(200)
 
 if __name__ == "__main__":
